@@ -91,7 +91,6 @@ module "alb" {
         target_group_key = "ex-instance"
       }
     }
-  }
 
   target_groups = {
     ex-instance = {
